@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #fff;
+    color: #222;
+    padding: 0;
+    height: 100vh;
+}
+
+.theme-switcher {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: right;
+    padding:  0;
+    div{
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        border-width: 2px;
+        border: 1px solid rgb(160, 159, 159);
+        border-radius: 4px;
+        margin: 2px 5px;
+        display: inline-block;
+        opacity: 0.5;
+        &.active {
+            opacity: 1;
+        }
+    }
+    div:hover {
+        opacity: 1;
+    }
+    p{
+        font-size: 20px;
+    }
+    
+}
+
+.content-box{
+    margin: 0 auto;
+    background-color: #eee;
+    color: #222;
+    border-radius: 8px;
+    padding: 30px 30px 40px 30px;
+    max-width: 1000px;
+    border: 1px solid #222;
+    h3{
+        line-height: 1.2;
+        max-width: 0;
+        font-size: 30px;
+    }
+    h5{
+        line-height: 1.5;
+        margin: 0 0 22px 0;
+        font-size: 20px;
+    }
+}
+
+.RegeneratePanel{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 460px;
+    text-align: right;
+    div{
+        margin-right: 50px;
+    }
+    select{
+            padding: 10px;
+            margin: 0.125rem auto;
+            border: 1px solid darkblue;
+            margin-right: 10px;
+        }
+        button{
+            padding: 10px;
+            background-color: #222;
+            color: #eee;
+            margin: 0.125rem auto;
+        }
+}

@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import {
   getColors, extractColors
 } from './services/base-http.service';
-import './App.scss';
-import './switcher.scss'
+import './css/App.scss';
+import './css/switcher.scss'
 
 const options = [
   { id: 1, label: "Select color default is Random", value: "" },

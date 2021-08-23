@@ -1,6 +1,6 @@
 # Color Swatch front-end
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ [Demo App](https://colors-witcher.herokuapp.com).
 
 ## Available Scripts
 
